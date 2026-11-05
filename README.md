@@ -1,14 +1,14 @@
-# 🧠 NLP Emotion & Sentiment Analyzer
+#  NLP Emotion & Sentiment Analyzer
 
 Application et moteur de traitement du langage naturel (NLP) permettant d'analyser les sentiments et de classer les émotions (Joie, Colère, Tristesse, Neutre) dans un texte.
 
 ---
 
-## 📌 Fonctionnalités
-- 🎯 **Analyse d'Émotions** : Classification du texte selon des catégories d'émotions prédéfinies.
-- 📊 **Calcul de Sentiments** : Évaluation des scores de polarité (-1.0 à +1.0) et de subjectivité.
-- 🌐 **Interface Web Sans Serveur** : Version web interactive avec `index.html`.
-- 🐍 **Moteur Python NLP** : Traitement par TextBlob et extraction lexicographique (`emotion_analyzer.py`).
+##  Fonctionnalités
+-  **Analyse d'Émotions** : Classification du texte selon des catégories d'émotions prédéfinies.
+-  **Calcul de Sentiments** : Évaluation des scores de polarité (-1.0 à +1.0) et de subjectivité.
+-  **Interface Web Sans Serveur** : Version web interactive avec `index.html`.
+-  **Moteur Python NLP** : Traitement par TextBlob et extraction lexicographique (`emotion_analyzer.py`).
 
 ---
 
@@ -31,7 +31,7 @@ emotion-sentiment-analyzer/
 
 ---
 
-## 🚀 Utilisation (Anaconda)
+## Utilisation (Anaconda)
 
 ### 1. Interface Web (immédiate) :
 Ouvrez simplement le fichier `index.html` dans votre navigateur.

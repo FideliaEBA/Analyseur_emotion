@@ -1,0 +1,4 @@
+textblob==0.18.0.post0
+pandas==2.2.1
+streamlit==1.32.0
+matplotlib==3.8.3

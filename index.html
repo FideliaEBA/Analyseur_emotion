@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NLP Emotion & Voice Analyzer</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <header>
+    <h1>🧠 Analyseur d'Émotions (Texte & Vocal)</h1>
+    <p class="sub">Parlez dans votre micro ou saisissez du texte pour détecter l'émotion en temps réel.</p>
+  </header>
+
+  <div class="container">
+    <div class="card">
+      <h2>1. Saisie Texte ou Vocale</h2>
+      <textarea id="inputText" placeholder="Écrivez ici ou utilisez le bouton micro ci-dessous..."></textarea>
+      
+      <div class="btn-group">
+        <button id="btnVoice" class="btn-voice">🎙️ Parler au micro</button>
+        <button id="btnAnalyze" class="btn-main">🔍 Analyser l'émotion</button>
+      </div>
+      <p id="voiceStatus" class="status-text"></p>
+    </div>
+
+    <div class="card" id="resultCard">
+      <h2>2. Résultat de l'analyse</h2>
+      <div id="emotionBadge" class="badge">En attente...</div>
+      <p id="emotionDesc" class="desc">Entrez du texte ou parlez au micro.</p>
+      
+      <div class="metrics">
+        <div class="metric-box">
+          <span class="label">Polarité</span>
+          <span id="scorePolarite" class="value">0.0</span>
+        </div>
+        <div class="metric-box">
+          <span class="label">Subjectivité</span>
+          <span id="scoreSubjectivite" class="value">0.0</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>Projet IA & Reconnaissance Vocale (Web Speech API) — Fidélia EBA-DOVI</footer>
+</main>
+<script src="emotions.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
